@@ -1,3 +1,3 @@
-<header class="mb-3">
-    <h1>Paintings</h1>
+<header class="mb-4">
+    <h1>{{ $title ?? 'Paintings' }}</h1>
 </header>
