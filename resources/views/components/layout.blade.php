@@ -10,6 +10,7 @@
 </head>
 <body>
     <div class="container">
+        <x-nav></x-nav>
         <x-header :title="$title ?? 'Paintings'"></x-header>
         {{$slot}}
     </div>
